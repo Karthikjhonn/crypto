@@ -81,6 +81,24 @@ function Overlay() {
                     <div className='w-16 h-4 rounded-full bg-[#2f2f2f]'></div>
                 </div>
             </div>
+            <div className='bg-[#1e1e1e] w-full h-48 rounded-[12px] p-4 flex flex-col justify-evenly animate-pulse mb-4'>
+                <div className='flex justify-between items-center'>
+                    <div className='w-28 h-4 rounded-full bg-[#2f2f2f]'></div>
+                    <div className='w-16 h-4 rounded-full bg-[#2f2f2f]'></div>
+                </div>
+                <div className='flex justify-between items-center'>
+                    <div className='w-28 h-4 rounded-full bg-[#2f2f2f]'></div>
+                    <div className='w-16 h-4 rounded-full bg-[#2f2f2f]'></div>
+                </div>
+                <div className='flex justify-between items-center'>
+                    <div className='w-28 h-4 rounded-full bg-[#2f2f2f]'></div>
+                    <div className='w-16 h-4 rounded-full bg-[#2f2f2f]'></div>
+                </div>
+                <div className='flex justify-between items-center'>
+                    <div className='w-28 h-4 rounded-full bg-[#2f2f2f]'></div>
+                    <div className='w-16 h-4 rounded-full bg-[#2f2f2f]'></div>
+                </div>
+            </div>
         </div>
     )
 }

@@ -33,6 +33,16 @@ function Newscomponent() {
                         <div className='w-12 rounded-full inline-block bg-[#202020] h-4'></div>
                         <div className='w-12 rounded-full inline-block ms-2.5 bg-[#202020] h-4'></div>
                     </div>
+                    <div className='animate-pulse mt-6'>
+                        <div className='w-24 bg-[#1e1e1e] h-6 mb-4 rounded-sm'></div>
+                        <div className='w-full bg-[#202020] h-6 rounded-sm'></div>
+                        <div className='w-full h-44 bg-[#121212] mt-8 mb-2 rounded-md'></div>
+                        <div className='w-10/12 bg-[#1e1e1e] h-4 mb-2.5 rounded-sm'></div>
+                        <div className='w-full bg-[#202020] h-4 mb-2.5 rounded-sm'></div>
+                        <div className='w-1/2 bg-[#202020] h-4 mb-2.5 rounded-sm'></div>
+                        <div className='w-12 rounded-full inline-block bg-[#202020] h-4'></div>
+                        <div className='w-12 rounded-full inline-block ms-2.5 bg-[#202020] h-4'></div>
+                    </div>
                 </div>
                 : <></>}
         </div>

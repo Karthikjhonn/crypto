@@ -18,10 +18,10 @@ function Smalldevicesnav() {
             if (item.innerText.toUpperCase() == event.toUpperCase()) {
                 console.log(item);
                 item.classList.add("font-[500]")
-                item.classList.add("text-blue-500")
+                item.classList.add("text-teal-500")
             }else{
                 item.classList.remove("font-[500]")
-                item.classList.remove("text-blue-500")
+                item.classList.remove("text-teal-500")
             }
         })
     }
@@ -30,7 +30,7 @@ function Smalldevicesnav() {
             <nav className='bg-white text-gray-400 p-2 px-0 rounded-[12px]'>
                 <ul className='py-2 grid grid-cols-5'>
                     <NavLink onClick={() => navigationActive('market')} to="/market">
-                        <li className='flex flex-col items-center navLink text-[13px] font-[500] text-blue-500 capitalize transition-all ease-in-out duration-200 '><FiActivity  />market</li>
+                        <li className='flex flex-col items-center navLink text-[13px] font-[500] text-teal-500 capitalize transition-all ease-in-out duration-200 '><FiActivity  />market</li>
                     </NavLink>
                     <NavLink onClick={() => navigationActive('exchange')} to="/exchange">
                         <li className='flex flex-col items-center navLink text-[13px] font-[300] capitalize transition-all ease-in-out duration-200 '><FiRepeat  />exchange</li>
