@@ -12,7 +12,7 @@ import Toast from '../popupmessage/Toast';
 function Addwishlist() {
   const [wishlist, setwishlist] = useState(false)
 
-  let postAdded = <Toast message={'Post added successfully'} openModel={900} closeModel={1000}/>
+  // let postAdded = <Toast message={'Post added successfully'} openModel={900} closeModel={1000}/>
   // let postRemoved = <Toast message={'Post removed'} />
 
   function wishliststate(event) {
@@ -26,7 +26,7 @@ function Addwishlist() {
   return (
     <div>
       <div className='p-1 bg-black/50 rounded-full absolute top-4 right-2'>
-        {wishlist ? <div><AiTwotoneHeart onClick={() => wishliststate(false)} className="cursor-pointer text-2xl text-red-600" />{postAdded} </div> :<div><AiOutlineHeart onClick={() => wishliststate(true)} className='text-2xl cursor-pointer' /></div>}
+        {wishlist ? <div><AiTwotoneHeart onClick={() => wishliststate(false)} className="cursor-pointer text-2xl text-red-600" /><Toast message={'Post added successfully'} openModel={900} closeModel={1000}/> </div> :<div><AiOutlineHeart onClick={() => wishliststate(true)} className='text-2xl cursor-pointer' /></div>}
       </div>
     </div>
   )
