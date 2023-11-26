@@ -9,8 +9,6 @@ import { format, formatDistance, formatRelative, subDays } from 'date-fns'
 import Toast from '../popupmessage/Toast';
 
 
-
-
 function Addwishlist() {
   const [wishlist, setwishlist] = useState(false)
 
@@ -28,7 +26,7 @@ function Addwishlist() {
   return (
     <div>
       <div className='p-1 bg-black/50 rounded-full absolute top-4 right-2'>
-        {wishlist ? <><AiTwotoneHeart onClick={() => wishliststate(false)} className="cursor-pointer text-2xl text-red-600" /> {postAdded} </> : <><AiOutlineHeart onClick={() => wishliststate(true)} className='text-2xl cursor-pointer' /></>}
+        {wishlist ? <div><AiTwotoneHeart onClick={() => wishliststate(false)} className="cursor-pointer text-2xl text-red-600" />{postAdded} </div> :<div><AiOutlineHeart onClick={() => wishliststate(true)} className='text-2xl cursor-pointer' /></div>}
       </div>
     </div>
   )
