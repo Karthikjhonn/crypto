@@ -1,0 +1,310 @@
+{
+    "newsdata": [
+        {
+            "news_url": "https://thecurrencyanalytics.com/bitcoin/bitcoin-and-ethereum-rebound-as-crypto-markets-regain-momentum-78662.php",
+            "image_url": "https://crypto.snapi.dev/images/v1/i/m/ethereum-31-386594.jpg",
+            "title": "Bitcoin and Ethereum Rebound as Crypto Markets Regain Momentum",
+            "text": "In the ever-evolving world of cryptocurrency, Bitcoin and Ethereum are once again taking center stage, as they bounce back from recent price dips to start the weekend on a positive note.",
+            "source_name": "The Currency Analytics",
+            "date": "Sun, 29 Oct 2023 07:53:32 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC",
+                "ETH"
+            ]
+        },
+        {
+            "news_url": "https://u.today/bitcoin-btc-whales-aggressively-accumulating-on-chain-data?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/r/d/s0465-386591.jpg",
+            "title": "Bitcoin (BTC) Whales Aggressively Accumulating: On-Chain Data",
+            "text": "On-chain data might be signaling aggressive accumulation among Bitcoin whales. According to Ali, a crypto analyst, Bitcoin whales have purchased over 30,000 BTC worth approximately $1 billion in the last five days alone.",
+            "source_name": "UToday",
+            "date": "Sun, 29 Oct 2023 07:39:00 -0400",
+            "topics": [
+                "whales"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://coingape.com/?p=162736",
+            "image_url": "https://crypto.snapi.dev/images/v1/w/o/technical-analysis1-386587.jpg",
+            "title": "Bitcoin Price Prediction: Chart Pattern Signals a 35% Upswing Ahead",
+            "text": "Bitcoin Price Prediction: The BTC price hit a major roadblock in its ongoing recovery, facing strong resistance around the $35,000 mark. This stall has ignited concerns about a potential correction across the broader altcoin market, raising questions about whether the recent ‘Uptober' rally has come to an end.",
+            "source_name": "Coingape",
+            "date": "Sun, 29 Oct 2023 07:22:15 -0400",
+            "topics": [
+                "tanalysis",
+                "priceforecast",
+                "pricemovement"
+            ],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://u.today/bitcoin-to-51000-in-november-btc-price-history-says-maybe?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/l/v/s0463-386584.jpg",
+            "title": "Bitcoin to $51,000 in November? BTC Price History Says Maybe",
+            "text": "As October draws to a close with Bitcoin (BTC) riding high at $34,200, investors and enthusiasts are eagerly eyeing the next chapter for the world's leading cryptocurrency. With a remarkable 27.1% surge this month, BTC has once again defied expectations, leaving many wondering: Could November bring even greater gains?",
+            "source_name": "UToday",
+            "date": "Sun, 29 Oct 2023 07:09:00 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://tokenpost.com/BlackRock-Inches-Closer-to-Bitcoin-ETF-with-DTCC-Listing-Crypto-Landscape-Evolves-10892",
+            "image_url": "https://crypto.snapi.dev/images/v1/z/r/pdf8a1e0y6-386599.png",
+            "title": "BlackRock Nears SEC Approval for Bitcoin ETF, BlockFi Resurfaces Amidst Crypto Turbulence",
+            "text": "BlackRock, a prominent investment firm, has taken a significant step towards introducing a Bitcoin ETF (Exchange-Traded Fund) by securing a listing on the Depository Trust Clearing Corporation (DTCC). Such a move typically suggests an imminent nod from the United States Securities and Exchange Commission (SEC).",
+            "source_name": "Tokenpost",
+            "date": "Sun, 29 Oct 2023 07:01:20 -0400",
+            "topics": [
+                "regulations"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.newsbtc.com/news/bitcoin/bitcoin-crypto-spot-trading-volumes-climb/",
+            "image_url": "https://crypto.snapi.dev/images/v1/l/k/a-133pngfit11082c733-386582.jpg",
+            "title": "Bitcoin Bull Market: Crypto Spot Trading Volumes Climb To 8-Month Highs",
+            "text": "Bitcoin's surge past $35,000 on the 24th and 25th of October took the crypto world by surprise, as it indicated what might be the beginning of a new bullish sentiment. Trading volumes for the world's largest cryptocurrency hit their highest levels since March, showing that interest in Bitcoin is booming once more.",
+            "source_name": "NewsBTC",
+            "date": "Sun, 29 Oct 2023 06:48:27 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://thecurrencyanalytics.com/bitcoin/bitcoin-and-gold-investment-choices-amidst-geopolitical-unrest-78650.php",
+            "image_url": "https://crypto.snapi.dev/images/v1/c/z/bitcoin-66-386578.jpg",
+            "title": "Bitcoin and Gold: Investment Choices Amidst Geopolitical Unrest",
+            "text": "In recent weeks, amidst the ongoing conflict between Israel and Hamas, two distinct assets have been attracting investors' attention due to notable price increases: Bitcoin and Gold. These two financial instruments have been on the radar of both seasoned and novice investors, and many are keen to understand which one might continue to perform well as the geopolitical turmoil unfolds.",
+            "source_name": "The Currency Analytics",
+            "date": "Sun, 29 Oct 2023 06:26:18 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.cryptoglobe.com/latest/2023/10/crypto-analytics-firm-intotheblock-on-chain-indicators-appear-to-suggest-bitcoin-is-in-the-early-stages-of-a-bull-market/",
+            "image_url": "https://crypto.snapi.dev/images/v1/r/y/raging-bull-with-bitcoin-logo-386575.jpg",
+            "title": "Crypto Analytics Firm IntoTheBlock: ‘On-Chain Indicators Appear To Suggest Bitcoin Is in the Early Stages of a Bull Market'",
+            "text": "In his blog post published on 26 October 2023, Lucas Outumuro, Head of Research at crypto analytics firm IntoTheBlock (ITB), investigates whether Bitcoin is entering another cycle, given its strong performance this year. He focuses on supply and demand dynamics, using historical patterns and on-chain data for his analysis.",
+            "source_name": "CryptoGlobe",
+            "date": "Sun, 29 Oct 2023 06:21:23 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.benzinga.com/markets/cryptocurrency/23/10/35481233/bitcoin-dogecoin-ethereum-funding-hamas-terror-peter-schiffs-skepticism-on-bitcoin-etf-and?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/z/6/bitcoin2cand2ccryptocurrency2cinvesting2cconcept2cbitcoin2ccryptocurrency2cgold2ccoin2ctrading-20jpegoptimizemediumdpr1autowebpheight800width1456fitcrop-386576.jpg",
+            "title": "Bitcoin, Dogecoin, Ethereum Funding Hamas Terror, Peter Schiff's Skepticism On Bitcoin ETF And More: This Week In Crypto",
+            "text": "This week was a rollercoaster for the cryptocurrency market with significant updates coming in from various fronts. The U.S. and Israel are escalating their efforts to curtail cryptocurrency transfers to Hamas, with Bitcoin (CRYPTO: BTC), Dogecoin (CRYPTO: DOGE), and Ethereum (CRYPTO: ETH) being implicated as funding streams.",
+            "source_name": "Benzinga",
+            "date": "Sun, 29 Oct 2023 06:20:14 -0400",
+            "topics": [],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "BTC",
+                "DOGE",
+                "ETH"
+            ]
+        },
+        {
+            "news_url": "https://www.fool.com/investing/2023/10/29/3-reasons-bitcoin-is-a-screaming-buy/",
+            "image_url": "https://crypto.snapi.dev/images/v1/7/v/virtual-wallet-bitcoin-savings-coinbase-386574.jpg",
+            "title": "3 Reasons Bitcoin Is a Screaming Buy",
+            "text": "Now might be one of the best times to add this top digital asset to your portfolio.",
+            "source_name": "The Motley Fool",
+            "date": "Sun, 29 Oct 2023 06:16:00 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cryptopotato.com/bitcoin-btc-price-prediction-how-high-can-btc-go-if-etf-is-approved/",
+            "image_url": "https://crypto.snapi.dev/images/v1/y/e/btc-price-prediction-cb-386572.jpg",
+            "title": "Bitcoin (BTC) Price Prediction: How High Can BTC Go if ETF is Approved?",
+            "text": "Another BTC price prediction is on the plate in case of an approved spot Bitcoin ETF.",
+            "source_name": "CryptoPotato",
+            "date": "Sun, 29 Oct 2023 06:13:21 -0400",
+            "topics": [
+                "priceforecast"
+            ],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://www.forbes.com/sites/digital-assets/2023/10/29/why-is-bitcoins-price-surging/",
+            "image_url": "https://crypto.snapi.dev/images/v1/p/r/why-is-bitcoins-price-surging-386569.jpg",
+            "title": "Why Is Bitcoin's Price Surging?",
+            "text": "Bitcoin's price recently hit $35,000, its highest level in over a year. What is behind this price surge?",
+            "source_name": "Forbes",
+            "date": "Sun, 29 Oct 2023 05:54:18 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cryptopotato.com/bitcoin-price-steady-above-34k-as-crypto-markets-consolidate-weekend-watch/",
+            "image_url": "https://crypto.snapi.dev/images/v1/d/d/btc-mw-386567.jpg",
+            "title": "Bitcoin Price Steady Above $34K as Crypto Markets Consolidate (Weekend Watch)",
+            "text": "The cryptocurrency market is in consolidation phase following Bitcoin's push earlier this week.",
+            "source_name": "CryptoPotato",
+            "date": "Sun, 29 Oct 2023 05:34:33 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://ambcrypto.com/cosmos-outpaces-bitcoin-and-ethereum-this-metric-rises-182/",
+            "image_url": "https://crypto.snapi.dev/images/v1/c/o/cosmos-hub-1200x900-386565.webp",
+            "title": "Cosmos outpaces Bitcoin and Ethereum – this metric rises 182%",
+            "text": "Cosmos witnesses a rise in its daily active users, leaving Bitcoin and Ethereum in the dust. What could have caused this rise?",
+            "source_name": "AMBCrypto",
+            "date": "Sun, 29 Oct 2023 05:30:38 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "ATOM",
+                "BTC",
+                "ETH"
+            ]
+        },
+        {
+            "news_url": "https://coinpedia.org/news/us-fomc-meeting-powell-speech-and-btc-price-are-creating-a-fud-in-market-what-next/",
+            "image_url": "https://crypto.snapi.dev/images/v1/6/h/research-shows-american-investors-buying-spree-is-whats-driving-bitcoins-surge-386563.webp",
+            "title": "US FOMC Meeting: Powell Speech and BTC Price Are Creating a FUD in Market? What Next?",
+            "text": "Over the past couple of weeks, the Bitcoin market has been displaying a notable upswing, with Bitcoin prices fluctuating between $34,100 and $35,000. While some experts predict a period of sideways movement, others anticipate a potential price decline.",
+            "source_name": "CoinPedia",
+            "date": "Sun, 29 Oct 2023 05:23:31 -0400",
+            "topics": [
+                "regulations",
+                "pricemovement"
+            ],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://coinspress.com/bitcoin-maximalist-exposes-alleged-crypto-terrorism-connection/?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/k/b/altcoins-1-386557.webp",
+            "title": "Bitcoin Maximalist Exposes Alleged Crypto-Terrorism Connection",
+            "text": "Recently, well-known crypto analyst Max Keiser stirred a heated discussion by suggesting that specific cryptocurrencies might be involved in supporting terrorism.",
+            "source_name": "Coinspress",
+            "date": "Sun, 29 Oct 2023 05:00:07 -0400",
+            "topics": [],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://thecurrencyanalytics.com/altcoins/jpmorgans-optimism-on-bitcoin-etf-approval-amid-legal-cautions-78638.php",
+            "image_url": "https://crypto.snapi.dev/images/v1/n/2/bitcoin-etf-1-386556.jpg",
+            "title": "JPMorgan's Optimism on Bitcoin ETF Approval Amid Legal Cautions",
+            "text": "In a surprising turn of events, JPMorgan, the global financial giant, has expressed its confidence in the approval of Bitcoin spot Exchange Traded Funds (ETFs) by the U.S. Securities and Exchange Commission (SEC). However, the bank has also voiced concerns regarding the legal complications that may arise if the SEC decides to reject these applications, highlighting the significant impact such a decision could have on both institutional and retail participants in the cryptocurrency market.",
+            "source_name": "The Currency Analytics",
+            "date": "Sun, 29 Oct 2023 04:59:59 -0400",
+            "topics": [],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cryptopotato.com/bitcoin-btc-price-rally-to-end-with-a-spot-bitcoin-etf-approval-peter-schiff/",
+            "image_url": "https://crypto.snapi.dev/images/v1/h/o/peterschiff-cover-386551.jpg",
+            "title": "Bitcoin (BTC) Price Rally to End With a Spot Bitcoin ETF Approval: Peter Schiff",
+            "text": "Gold and foreign equities investor Peter Schiff is bearish all things crypto. Bitcoin's rise on spot Bitcoin ETF expectations hasn't changed his tune.",
+            "source_name": "CryptoPotato",
+            "date": "Sun, 29 Oct 2023 04:22:34 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Negative",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://cointelegraph.com/news/first-bitcoin-etf-trades-gbtc-discount-69k-btc-price",
+            "image_url": "https://crypto.snapi.dev/images/v1/r/l/71cb9094-a8b2-414a-806c-a422545677d9-386550.jpg",
+            "title": "First Bitcoin ETF trades $1.5B as GBTC 'discount' echoes $69K BTC price",
+            "text": "ProShares and Grayscale lead a surge of activity in Bitcoin investment products, with analysis confident of implied demand for a Bitcoin spot ETF.",
+            "source_name": "Cointelegraph",
+            "date": "Sun, 29 Oct 2023 04:13:10 -0400",
+            "topics": [
+                "pricemovement"
+            ],
+            "sentiment": "Positive",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        },
+        {
+            "news_url": "https://invezz.com/news/2023/10/29/altcoins-calm-as-bitcoin-displays-stability-what-next-after-fed-meeting/?utm_source=snapi",
+            "image_url": "https://crypto.snapi.dev/images/v1/a/v/158278378-m-normal-none-386541.jpg",
+            "title": "Altcoins calm as Bitcoin displays stability – What next after Fed meeting?",
+            "text": "Bitcoin holds at the $34K value region on the last weekend before the Federal meeting scheduled for 31 October and 1 November 2023. Meanwhile, Fed Chair's comment on the United States economic outlook would likely impact stock and crypto prices.",
+            "source_name": "Invezz",
+            "date": "Sun, 29 Oct 2023 03:33:07 -0400",
+            "topics": [],
+            "sentiment": "Neutral",
+            "type": "Article",
+            "tickers": [
+                "BTC"
+            ]
+        }
+    ]
+}

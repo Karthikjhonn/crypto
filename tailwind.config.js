@@ -12,8 +12,11 @@ module.exports = {
         'upcolor':'#16c784',
         'downcolor':'#ea3943',
         'half-white': '#F8F8F8',
+        'half-black': '#191919',
 
-      }
+      },
+      
+
     },
   },
   plugins: [],
