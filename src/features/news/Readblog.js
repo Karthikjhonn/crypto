@@ -12,7 +12,7 @@ import Toast from '../popupmessage/Toast';
 function Addwishlist() {
   const [wishlist, setwishlist] = useState(false)
 
-  let postAdded = <Toast message={'Post added successfully'} />
+  let postAdded = <Toast message={'Post added successfully'} openModel={900} closeModel={1000}/>
   // let postRemoved = <Toast message={'Post removed'} />
 
   function wishliststate(event) {
