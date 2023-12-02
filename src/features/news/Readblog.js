@@ -10,6 +10,9 @@ import Toast from '../popupmessage/Toast';
 
 
 function Addwishlist() {
+  window.scrollTo({
+    top: 0,
+})
   const [wishlist, setwishlist] = useState(false)
 
   // let postAdded = <Toast message={'Post added successfully'} openModel={900} closeModel={1000}/>

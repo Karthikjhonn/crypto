@@ -15,6 +15,9 @@ function Message() {
 }
 
 function Notification() {
+    window.scrollTo({
+        top: 0,
+    })
     let messages = []
     for (let index = 0; index < 20; index++) {
         messages.push(<Message key={index} />);

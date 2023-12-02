@@ -5,6 +5,9 @@ import Toast from '../popupmessage/Toast';
 
 
 function Transaction() {
+  window.scrollTo({
+    top: 0,
+})
   const [toastActive,setToastActive]=useState(false)
   function addFund(){  
     setToastActive(true)

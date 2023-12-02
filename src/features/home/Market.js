@@ -29,6 +29,7 @@ function Market() {
     window.scrollTo({
         top: 0,
     })
+  
     const [overlay, setoverlay] = useState(true)
     setTimeout(() => setoverlay(false), 1500);
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Overlay() {
     return (
-        <div className='fixed bottom-0 left-0 w-full h-[90vh] bg-black z-[1050] overflow-hidden md:hidden'>
+        <div className='fixed bottom-0 left-0 w-full h-[90vh] bg-black z-[550] overflow-hidden md:hidden'>
             <div className='bg-[#464545] w-full h-10 animate-pulse'></div>
             <div className='px-4  animate-pulse'>
                 <div className='bg-[#464545] rounded-md w-full animate-pulse mt-8 p-2'>
