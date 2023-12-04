@@ -16,6 +16,7 @@ import Overlay from './features/popupmessage/Overlay';
 import { useState } from 'react';
 import { IoIosArrowRoundUp } from "react-icons/io";
 import Pnf from './features/pagenotfound/Pnf';
+import Authuser from './features/auth/Authuser';
 
 function Scroll() {
   const [scrolltopclass, setscrolltopclass] = useState('hidden opacity-0 transition-all ease-in-out duration-1000 bottom-20 md:bottom-6 right-5 lg:p-2.5 p-1.5 rounded-full bg-[#222121] animate-bounce cursor-pointer drop-shadow-2xl');
@@ -34,7 +35,7 @@ function Scroll() {
     }
   })
 
-  return(
+  return (
     <div className={scrolltopclass} onClick={scrolltotop}><div className="relative w-full h-full "><span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-25"></span><IoIosArrowRoundUp className='text-teal-500 font-semibold lg:text-[30px] text-[25px]' /></div></div>
   )
 }
@@ -42,12 +43,7 @@ function Scroll() {
 function App() {
   const [overlay, setoverlay] = useState(true);
   setTimeout(() => setoverlay(false), 2000);
-  console.log(window.location.href.split("/"));
-  var url = window.location.href.split("/");
-  var backedUrl=url[0];
-  var backedUrl1=url[2];
-  console.log(backedUrl+backedUrl1);
-  const siteUrl ="https://karthikjohnreact.netlify.app/"
+
   return (
     <section className='bg-black text-white pb-14 md:pb-0 scrollbar'>
       {/* small device Navigation  start*/}
@@ -86,7 +82,7 @@ function App() {
         </main>
       </section>
       <Footer />
-      <Scroll/>
+      <Scroll />
     </section>
   );
 }
