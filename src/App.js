@@ -43,7 +43,7 @@ function Scroll() {
 function App() {
   const [overlay, setoverlay] = useState(true);
   setTimeout(() => setoverlay(false), 2000);
-
+console.log("App component");
   return (
     <section className='bg-black text-white pb-14 md:pb-0 scrollbar'>
       {/* small device Navigation  start*/}

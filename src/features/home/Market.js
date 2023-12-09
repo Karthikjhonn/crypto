@@ -56,8 +56,20 @@ function Market() {
                             <button className='capitalize px-8 py-1.5 border border-blue-500 text-blue-500 font-light rounded-[4px] hover:bg-blue-500 hover:text-white hover:font-medium transition-all ease-in-out duration-300 w-full'>withdraw</button>
                         </div>
                     </div>
-                    <div className='bg-[#202020] p-4 rounded-[8px] hidden md:block'>
-                        test
+                    <div className='bg-[#202020] p-4 rounded-[8px] hidden md:flex md:space-x-3 items-baseline'>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-full rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-1/2 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-blue-500 via-blue-700 to-blue-900 h-12 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-1/3 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-1/4 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-1/6 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-16 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-1/3 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-blue-500 via-blue-700 to-blue-900 h-12 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-1/3 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-1/4 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-1/6 rounded-t-sm'></div>
+                        <div className='hover:-translate-y-[3px] transition-all duration-150 ease-in w-4 bg-gradient-to-b from-fuchsia-500 via-fuchsia-700 to-fuchsia-900 h-8 rounded-t-sm'></div>
                     </div>
                 </section>
                 <TrendingCard />

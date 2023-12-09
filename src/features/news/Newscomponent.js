@@ -1,20 +1,48 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Blog from './Blog'
 import jsonData from '../jsonstore/news.json'
+import { fetchPost, newsApiError, newsApiStatus, selectAllPost } from './newsslice'
+import { useDispatch, useSelector } from 'react-redux'
+
 
 function Newscomponent() {
+    const dispatch = useDispatch();
+    const apiStatus = useSelector(newsApiStatus);
+    const data = useSelector(selectAllPost);
+    useEffect(() => {
+        if (apiStatus == "idle") {
+            dispatch(fetchPost());
+        }
+    }, [dispatch, apiStatus])
     window.scrollTo({
         top: 0,
     })
     const [overlay, setoverlay] = useState(true)
     setTimeout(() => setoverlay(false), 1500);
-    const data = jsonData.newsdata
+    // const data = jsonData.newsdata
 
-    const blogPost = data.map((data, index) => {
-        return (
-            <Blog key={index} index={index + 1} newsurl={data.news_url} title={data.title} text={data.text} source={data.source_name} imgsrc={data.image_url} label={data.tickers} />
-        )
-    })
+    let blogPost;
+
+    if (apiStatus == "success") {
+        blogPost = data.map((data, index) => {
+            return (
+                <Blog key={index} index={index + 1} newsurl={data.url} title={data.title} text={data.content} source={data.author} imgsrc={data.urlToImage} label={data.tickers} />
+            )
+        })
+    }else if(apiStatus=="loading"){
+        blogPost=(<div>
+            <div className='animate-pulse my-2.5 md:my-8'>
+                <div className='bg-[#1e1e1e] rounded-sm w-full  h-72'></div>
+            </div>
+            <div className='animate-pulse my-2.5 md:my-8'>
+                <div className='bg-[#1e1e1e] rounded-sm w-full  h-72'></div>
+            </div>
+            <div className='animate-pulse my-2.5 md:my-8'>
+                <div className='bg-[#1e1e1e] rounded-sm w-full  h-72'></div>
+            </div>
+        </div>)
+    }
+
     return (
         <div className='max-w-4xl mx-auto py-10  p-4 md:py-10'>
             <div>
