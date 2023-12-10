@@ -7,6 +7,7 @@ import { FiEyeOff } from 'react-icons/fi'
 import { FiEye } from 'react-icons/fi'
 import News from '../news/News';
 import Overlay from '../popupmessage/Overlay';
+import { Navigate } from 'react-router-dom';
 
 function ShowBalance() {
     const [showBalance, hideBalance] = useState('password')
@@ -26,12 +27,13 @@ function ShowBalance() {
 }
 
 function Market() {
+    
     window.scrollTo({
         top: 0,
     })
-  
+
     const [overlay, setoverlay] = useState(true)
-    setTimeout(() => setoverlay(false), 1500);
+    setTimeout(() => setoverlay(false), 500);
 
     function changeMonth(events, params) {
         // events.target.className="capitalize px-8 py-1.5 border border-blue-500 text-blue-500 font-light rounded-[4px] hover:bg-blue-500 hover:text-white hover:font-medium transition-all ease-in-out duration-300 bg-blue-500 font-medium text-white"

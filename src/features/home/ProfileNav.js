@@ -13,7 +13,7 @@ function ProfileNav() {
         console.log("signout")
         localStorage.removeItem("username")
         dispatch(setusername(true));
-        window.location.reload();
+        // window.location.reload();
     }
     return (
         <div className='flex justify-between items-center gap-3 flex-wrap-reverse  px-4 py-2 bg-[#2B2B2B]/50 rounded-[12px] md:flex-nowrap md:gap-0'>
@@ -25,7 +25,7 @@ function ProfileNav() {
             {/* <div className='text-xl font-semibold text-slate-500 hidden md:block'>{date}</div> */}
             <div className='flex items-center gap-2 font-medium  text-white'>
                 <div className='w-12 h-12 rounded-full border-[2px] border-x-orange-400 border-y-amber-400 p-[1px]'><img src='https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM=' className='object-cover w-full h-full rounded-full'></img></div>
-                <p className='flex items-center capitalize gap-1 group/signout relative min-w-[150px]'>{userName} <FiChevronDown />
+                <p className='flex items-center capitalize gap-1 group/signout relative min-w-[150px]'>{userName?userName:"karthik john"} <FiChevronDown />
                 <div className='bg-white text-black absolute top-full  border text-center left-0 shadow hidden group-hover/signout:block transition-all ease-in-out duration-1000' onClick={signout}><button className='py-2 px-4 text-[14px] font-normal'>sign out</button></div>
                 </p>
             </div>

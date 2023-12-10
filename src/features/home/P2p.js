@@ -6,7 +6,7 @@ import Datatable from '../table/TableData'
 
 function P2p() {
     const [overlay, setoverlay] = useState(true)
-    setTimeout(() => setoverlay(false), 1500);
+    setTimeout(() => setoverlay(false), 500);
     window.scrollTo({
         top: 0,
     })

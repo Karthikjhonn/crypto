@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function Exchange() {
     const [overlay, setoverlay] = useState(true)
-    setTimeout(() => setoverlay(false), 1500);
+    setTimeout(() => setoverlay(false), 500);
     window.scrollTo({
         top: 0,
     })

@@ -6,7 +6,12 @@ import { NavLink } from 'react-router-dom';
 
 
 
-function Blog({ index, newsurl, title, text, source, imgsrc,}) {
+function Blog({ index, newsurl, title, text, source, imgsrc,label}) {
+    const labelpost = label.map((data, i) => {
+        return (
+            <div key={i} className='bg-[#202020] px-3 py-1 rounded-full text-[12px]'>{data}</div>
+        )
+    })
 
     return (
         <section className='select-none'>
@@ -31,8 +36,7 @@ function Blog({ index, newsurl, title, text, source, imgsrc,}) {
                         <div className='flex flex-col gap-1.5'>
                             <div><a href={newsurl} target='_blank' className='inline-flex gap-1 items-center font-[400] text-[12px] text-half-white hover:text-blue-500'><CiShare1 className="font-medium text-[16px]" />{source}</a></div>
                             <div className='flex gap-2 items-center'>
-                               <div className='bg-[#202020] px-3 py-1 rounded-full text-[12px] uppercase'>eth</div>
-                               <div className='bg-[#202020] px-3 py-1 rounded-full text-[12px] uppercase'>srk</div>
+                                {labelpost}
                             </div>
                         </div>
                     </div>

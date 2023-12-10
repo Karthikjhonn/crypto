@@ -43,31 +43,17 @@ function Scroll() {
 function App() {
   const [overlay, setoverlay] = useState(true);
   setTimeout(() => setoverlay(false), 2000);
-console.log("App component");
+  console.log("App component");
   return (
     <section className='bg-black text-white pb-14 md:pb-0 scrollbar'>
-      {/* small device Navigation  start*/}
-      <header className='lg:hidden sticky top-0 z-[99] shadow-xl bg-transparent'>
-        <Nav />
-        <div className='md:block hidden lg:hidden'>
-          <NavOverLay />
-        </div>
-      </header>
-      <div className='fixed bottom-1 w-[98%] mx-auto left-1/2 -translate-x-1/2 z-[950] md:hidden'>
-        <Smalldevicesnav />
-      </div>
-      <div className='lg:hidden sticky top-5 bg-teal-200 p-4 hidden'>
-        <p className='text-[13px] font-medium'>market hello <span></span></p>
-      </div>
-      {/* small device Navigation  end*/}
       <section className='md:grid grid-cols-12 min-h-screen h-full scrollbar' id=''>
         {/* large device Navigation */}
-        <header className='w-full col-span-2 min-h-screen  hidden lg:block'>
+        <header className='w-full col-span-2 min-h-screen  hidden lg:block '>
           <LargeDevicesNav />
         </header>
         {/* large device Navigation  end*/}
         <main className='col-span-12 lg:col-span-10 w-full '>
-          <Routes>
+          {/* <Routes>
             <Route path="/" element={<Market />} />
             <Route path='/market' element={<Market />} />
             <Route path="/p2p" element={<P2p />} />
@@ -77,11 +63,11 @@ console.log("App component");
             <Route path="/message" element={<Notification />} />
             <Route path="/readblog/:id/:title" element={<Readblog />} />
             <Route path="*" Component={Pnf} />
-          </Routes>
+          </Routes> */}
           {overlay ? <Overlay /> : <></>}
         </main>
       </section>
-      <Footer />
+      
       <Scroll />
     </section>
   );

@@ -11,9 +11,9 @@ import AuthTest from './AuthTest';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Provider store={store}>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <AuthTest/>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </Provider>
 );
 
