@@ -4,22 +4,27 @@ import { DiSwift } from 'react-icons/di'
 import { FiArrowRight } from "react-icons/fi";
 import { useSelector, useDispatch } from 'react-redux';
 import { userName, setusername } from './authSlice';
-
+import { useNavigate } from 'react-router-dom';
 
 function Authuser() {
+    const navigate = useNavigate();
     const [getUserName, setUserName] = useState("");
     const dispatch = useDispatch();
     function setUser() {
         if (getUserName != "") {
             localStorage.setItem("username", getUserName);
             dispatch(setusername(true));
+            navigate('/',{ replace: true })
         }
+    }
+    const boxShadow ={
+        boxShadow :"#0037ff8f 3px 9px 153px",
     }
 
     return (
         <div>
             <div className='bg-black w-full min-h-screen flex items-center justify-center fixed top-0 left-0 z-[1001]'>
-                <div className='bg-[#111111c9] p-2 py-6 rounded-[8px] border border-slate-50/[.01] w-[95%] max-w-xs  flex flex-col justify-center items-center h-56' style={{"box-shadow": "#0037ff8f 3px 9px 153px"}}>
+                <div className='bg-[#111111c9] p-2 py-6 rounded-[8px] border border-slate-50/[.01] w-[95%] max-w-xs  flex flex-col justify-center items-center h-56' style={boxShadow}>
                     <div className='flex items-center justify-center gap-1 p-2'>
                         <DiSwift className='w-6 h-6 text-blue-500' />
                         <h1 className='text-white font-medium text-2xl'>Altzone</h1>

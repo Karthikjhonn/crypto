@@ -1,9 +1,4 @@
-import React, { useState } from 'react'
-import App from './App'
-import { setusername, userName } from './features/auth/authSlice';
-import { useDispatch, useSelector } from 'react-redux';
-
-import { Navigate, Route, RouterProvider,  createBrowserRouter, createRoutesFromElements, useNavigate } from 'react-router-dom';
+import {  Route,  RouterProvider,  createBrowserRouter, createRoutesFromElements, } from 'react-router-dom';
 import RootLayout from './latout/RootLayout';
 import Market from './features/home/Market';
 import P2p from './features/home/P2p';
@@ -18,19 +13,7 @@ import Authuser from './features/auth/Authuser';
 
 
 function AuthTest() {
-  console.log("Auth test............");
-  const getusername = localStorage.getItem("username");
-  const dispatch = useDispatch()
-  if (getusername != null) {
-    dispatch(setusername(true))
-  }
-  const islogin = useSelector(userName);
-  console.log("user name : ", getusername);
-  // if(!islogin){
-  //   window.history.pushState(null, null, 'login');
-  // }
-
-
+  
 
   const router = createBrowserRouter(
     createRoutesFromElements(

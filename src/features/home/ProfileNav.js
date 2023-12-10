@@ -3,17 +3,18 @@ import {format} from 'date-fns';
 import {FiChevronDown} from 'react-icons/fi';
 import { setusername } from '../auth/authSlice';
 import { useDispatch } from 'react-redux';
-
+import { useNavigate } from 'react-router-dom';
 
 function ProfileNav() {
-    const dispatch = useDispatch()
+    const navigate = useNavigate();
+    const dispatch = useDispatch();
     const userName = localStorage.getItem("username");
     const date= format(new Date(), 'dd-MM-yyyy')
     function signout(){
         console.log("signout")
         localStorage.removeItem("username")
         dispatch(setusername(true));
-        // window.location.reload();
+        navigate('/login',{ replace: true })
     }
     return (
         <div className='flex justify-between items-center gap-3 flex-wrap-reverse  px-4 py-2 bg-[#2B2B2B]/50 rounded-[12px] md:flex-nowrap md:gap-0'>

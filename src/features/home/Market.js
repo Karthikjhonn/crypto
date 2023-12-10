@@ -7,7 +7,11 @@ import { FiEyeOff } from 'react-icons/fi'
 import { FiEye } from 'react-icons/fi'
 import News from '../news/News';
 import Overlay from '../popupmessage/Overlay';
-import { Navigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { setusername, userName } from '../auth/authSlice';
+
+
 
 function ShowBalance() {
     const [showBalance, hideBalance] = useState('password')
@@ -26,8 +30,20 @@ function ShowBalance() {
     )
 }
 
+
 function Market() {
-    
+    const navigate = useNavigate();
+    const getusername = localStorage.getItem("username");
+    const dispatch = useDispatch()
+    if (getusername != null) {
+        dispatch(setusername(true))
+    }
+    const islogin = useSelector(userName);
+    console.log("user name : ", getusername);
+
+    if(!islogin){
+        navigate("login",{ replace: true });
+    }
     window.scrollTo({
         top: 0,
     })
